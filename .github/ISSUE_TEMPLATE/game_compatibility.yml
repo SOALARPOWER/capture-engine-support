@@ -1,0 +1,57 @@
+name: ゲーム互換性・未対応ゲーム報告
+description: 未対応ゲームや正常に解析できないゲームを報告します
+title: "[Game Compatibility] "
+labels:
+  - game-compatibility
+body:
+  - type: input
+    id: game_title
+    attributes:
+      label: ゲームタイトル
+    validations:
+      required: true
+
+  - type: input
+    id: game_url
+    attributes:
+      label: ゲームURL
+      placeholder: https://play.games.dmm.co.jp/game/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: 現在の状況
+      options:
+        - ゲーム本体を検出できない
+        - ゲームスタート後に解析できない
+        - Canvas / iframe は検出できるが正常動作しない
+        - Capture表示が崩れる
+        - 起動はするが一部機能が動かない
+        - その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 詳細
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Capture Engine 診断情報
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 確認事項
+      options:
+        - label: Cookie、token、認証情報などの機密情報を含めていないことを確認しました。
+          required: true

@@ -8,6 +8,7 @@ body:
     id: game_title
     attributes:
       label: ゲームタイトル
+      placeholder: 超カワイイ！エンジェルスマイル R
     validations:
       required: true
 
@@ -15,7 +16,7 @@ body:
     id: game_url
     attributes:
       label: ゲームURL
-      placeholder: https://play.games.dmm.co.jp/game/...
+      placeholder: https://example.com/
     validations:
       required: true
 

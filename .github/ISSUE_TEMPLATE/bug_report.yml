@@ -19,7 +19,7 @@ body:
     attributes:
       label: ゲームタイトル
       description: 不具合が発生したゲームのタイトルを入力してください。
-      placeholder: 例）推し神カオティック〜ハチャメチャ大乱闘〜
+      placeholder: 例）超カワイイ！エンジェルスマイル R
     validations:
       required: false
 
@@ -28,7 +28,7 @@ body:
     attributes:
       label: ゲームURL
       description: DMM/FANZA GAMES のゲームページURLを入力してください。
-      placeholder: https://play.games.dmm.co.jp/game/...
+      placeholder: https://example.com/
     validations:
       required: false
 

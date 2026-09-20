@@ -1,13 +1,3 @@
----
-name: バグ報告
-about: DMM/FANZA GAMES Capture Engine の不具合を報告します
-title: ''
-labels: bug
-assignees: SOALARPOWER
-type: Bug
-
----
-
 name: バグ報告
 description: DMM/FANZA GAMES Capture Engine の不具合を報告します
 title: "[Bug] "

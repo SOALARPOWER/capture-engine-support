@@ -38,6 +38,7 @@ body:
     id: description
     attributes:
       label: 詳細
+      placeholder: 発生している問題や、その再現手順を分かる範囲で入力してください。（例：画面の表示が途中で切れてしまっている、お知らせ機能が動かない、等）
     validations:
       required: true
 
